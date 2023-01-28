@@ -2,13 +2,13 @@ import sys
 from krita import *
 
 def adicionar_borda(imagem, largura_borda, cor_borda):
-    # obtém a seleção atual
+    # gets the atual selection
     selecao = imagem.selection()
-    # cria uma nova camada para a borda
+    # create a new layer for the edge
     camada_borda = imagem.createLayer("Borda")
-    # configura a cor da borda
+    # set the collor of the edge
     camada_borda.fill(cor_borda)
-    # configura a posição e tamanho da camada
+    # set the position and the size of the edge
     camada_borda.setX(selecao.x() - largura_borda)
     camada_borda.setY(selecao.y() - largura_borda)
     camada_borda.setWidth(selecao.width() + largura_borda * 2)
@@ -16,11 +16,11 @@ def adicionar_borda(imagem, largura_borda, cor_borda):
     # adiciona a camada à imagem
     imagem.addNode(camada_borda)
 
-# pergunta ao usuário a largura da borda
+# ask the user the edge width
 largura_borda = int(input("Insira a largura da borda em pixels: "))
 
-# obtém a imagem ativa
+# gets the image
 imagem_ativa = Application.activeImage()
 
-# adiciona a borda preta
+# add the black edge
 adicionar_borda(imagem_ativa, largura_borda, "#000000")
