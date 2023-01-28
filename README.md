@@ -1,5 +1,2 @@
 # BlackDot
-BlackDot is a code that put black pixels on the edge of your draw, it can be used in many Drawing apps.
-You drawing  a pixel art for a game, for example and you are using a black border in all your arts, it is a very upset thing to do huh? Thats why i created BlackDot, for me use in my draws and for help who needs it too. Im stil lauching it, so any problem please describe for i can fix it. If you Want to add something or change the code feel yourself free to do it, but if you change or add something, i would like that you mention me, thank you.
-
-
+ The code creates a black border around an image by first opening the image using the Python Imaging Library (PIL), then it uses the numpy library to create an array representation of the image. It then iterates through the array, checking the pixels on the edge of the image, and replaces the color of those pixels with black. The code also allows you to specify the width of the border in pixels by passing an argument when calling the function. This modified image is then saved as a new image file with the same name as the original image file but with "_bordered" appended to it.
