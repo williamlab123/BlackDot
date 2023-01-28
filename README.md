@@ -11,7 +11,7 @@ image.
  
  
  <h1>
- #<div align="center">  Krita </div>
+ <div align="center">  Krita </div>
  </h1>
  
  <h3>
