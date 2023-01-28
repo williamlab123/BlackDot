@@ -13,7 +13,7 @@ def adicionar_borda(imagem, largura_borda, cor_borda):
 imagem = Image.open("imagem.png")
 
 
-largura_borda = int(input("Insira a largura da borda em pixels: "))
+largura_borda = int(input("Insert the edge with in pixels: "))
 
 
 imagem_com_borda = adicionar_borda(imagem, largura_borda, "black")
