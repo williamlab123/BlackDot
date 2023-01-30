@@ -14,7 +14,6 @@ image.
  <div align="center"> On Krita </div>
  </h1>
  
- <h3>
- The version of 'Krita' can be used on Krita. Go to the Krita's scripts and upload there. Then you can run with your imagem 
-already on Krita and save. Any error or problem, please make a comment. Any improvement, please make a pull request.   
-</h3>
+ <h3>Go to the Krita's scripts and upload there. Then you can run with your imagem 
+already on Krita and save. Any error or problem, please make a comment. Any improvement, please make a pull request.</h3>
+
